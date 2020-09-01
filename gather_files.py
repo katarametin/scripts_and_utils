@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-A script the traverses through folders and copies files with a specific ending to
+A script that traverses through folders and copies files with a specific ending to
 the selected destination
 """
 
@@ -47,6 +47,7 @@ def main(source, destination, ending):
                 )
     print("Done : )")
     print(f"Copied all the files into {dest}")
+    return 0
 
 
 def _cli():
